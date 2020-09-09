@@ -51,7 +51,7 @@ def video_feed():
 
 # check to see if this is the main thread of execution
 if __name__ == '__main__':
-    # construct the argument parser and parse command line arguments
+    # construct the argument parser and parse command line argumentshow to make and run a bas
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--ip", type=str, required=True,
                     help="ip address of the device")
